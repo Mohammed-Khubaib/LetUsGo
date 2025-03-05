@@ -105,6 +105,9 @@ Below is a table representing the memory consumption of each data type and its v
    a := 30 // Type inferred as int
    b := "World"
    ```
+   > ⚠️ Note
+    - The := (short variable declaration) is only allowed inside function bodies, not at the package level.
+    - At the package level, you must use the var keyword to declare variables.
 
 ---
 
